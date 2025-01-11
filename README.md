@@ -14,7 +14,7 @@ El proyecto fue desarrollado como una práctica para mejorar las habilidades en 
 
 ## Despliegue
 Puedes ver el proyecto en vivo en el siguiente enlace:  
-[GitHub Pages - Maquetación FLEX Práctica 01](https://danilopez9966.github.io/MaquetacionFLEX_Practica01c/)
+[GitHub Pages - Maquetación FLEX Práctica 01]([https://danilopez9966.github.io/MaquetacionFLEX_Practica01c/](https://github.com/danilopez9966/MaquetacionFLEX_Practica01c))
 
 ## Construido con
 - **HTML5**
