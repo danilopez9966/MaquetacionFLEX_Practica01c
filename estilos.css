@@ -1,0 +1,144 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    color: #006400;
+    font-family: 'Georgia', serif;
+}
+
+/* Primer section: Menú y contenido principal */
+.menu-section {
+    display: flex; /* Contenedor flex para menú y contenido principal */
+}
+
+.menu {
+    width: 10%; /* Ocupa el 10% del ancho */
+    background-color: #f9f9f9;
+    border-right: 2px solid #ccc;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #006400;
+    color: white;
+}
+
+.principal {
+    width: 90%; /* Ocupa el 90% del ancho */
+    padding: 20px;
+    display: flex; /* Usamos flexbox para alinear las imágenes verticalmente */
+    flex-direction: column; /* Las imágenes y textos estarán en columna */
+    gap: 20px; /* Espaciado entre las imágenes */
+}
+
+.principal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #fff; /* Fondo blanco detrás de las imágenes */
+    border: 2px solid #ccc; /* Borde gris */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor de las imágenes */
+    padding: 10px; /* Espaciado interno */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de hover */
+}
+
+.principal img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+/* Segundo section: Galería */
+.gallery-section {
+    display: flex; /* Centra el contenedor de la galería */
+    justify-content: flex-end; /* Mueve el contenido hacia la derecha */
+    align-items: center; /* Centra verticalmente si hay espacio */
+    padding: 20px;
+    text-align: center; /* Centra el contenido de texto */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes pasen a otra fila */
+    gap: 20px; /* Espaciado entre elementos */
+    justify-content: flex-end; /* Alinea las imágenes hacia la derecha */
+}
+
+.gallery picture {
+    width: 30%; /* Cada imagen ocupa el 30% del ancho */
+    background-color: #fff; /* Fondo blanco detrás de las imágenes */
+    border: 2px solid #ccc; /* Borde gris alrededor del contenedor */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 10px; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenedor */
+    text-align: center;
+    transition: transform 0.3s ease; /* Efecto al pasar el ratón */
+}
+
+.gallery picture:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Esquinas redondeadas para la imagen */
+    border: 2px solid #ccc; /* Borde gris */
+}
+
+
+/* Footer */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #ccc;
+}
+
+.footer-content {
+    display: flex; /* Contenedor flex para organizar el contenido */
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: center; /* Centrar verticalmente */
+    flex-wrap: wrap; /* Permite ajustar elementos en pantallas pequeñas */
+    gap: 10px;
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
